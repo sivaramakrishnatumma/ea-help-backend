@@ -20,7 +20,6 @@ function formatEmailBody(data) {
 }
 
 function sendEmail(data) {
-  console.log(data);
   const subject = `Customer Case`;
   const body = formatEmailBody(data);
   return new Promise((resolve, reject) => {
